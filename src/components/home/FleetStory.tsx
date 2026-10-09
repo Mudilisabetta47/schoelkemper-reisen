@@ -155,7 +155,7 @@ export function SkylinerMoment({ buses }: { buses: Bus[] }) {
   const img = "/img/fuhrpark/skyliner-76/aussen.jpg";
   return (
     <section ref={track} className="skyliner" aria-labelledby="sky-title">
-      <div className="skyliner__stage" data-header-theme="dark">
+      <div className="skyliner__stage on-dark" data-header-theme="dark">
         <div className="skyliner__media">
           <Pic src={img} alt="Neoplan Skyliner Doppeldecker (76 Plätze) von Scholkemper Reisen im Gegenlicht" fill sizes="100vw" quality={85} />
         </div>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { useId, useRef, useState, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { Icon } from "@/components/ui/Icon";
 import { EMAIL_RE, FIELD_LABEL } from "@/lib/inquiry";
 import { SITE } from "@/lib/site";
@@ -43,7 +43,10 @@ function Field({ id, label, error, children, hint }: { id: string; label: string
 export function BusRequest({ vehicles }: { vehicles: VehicleOption[] }) {
   const sp = useSearchParams();
   const uid = useId();
-  const t0 = useRef(Date.now());
+  const t0 = useRef(0);
+  useEffect(() => {
+    t0.current = Date.now();
+  }, []);
   const formTop = useRef<HTMLDivElement>(null);
   const [step, setStep] = useState(0);
   const [data, setData] = useState<Data>(() => ({

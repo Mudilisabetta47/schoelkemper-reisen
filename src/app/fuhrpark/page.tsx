@@ -12,7 +12,7 @@ import { fleetLd, JsonLd, pageMeta } from "@/lib/seo";
 export const metadata: Metadata = pageMeta({
   title: "Fuhrpark – Reisebusse von 48 bis 80 Plätzen",
   description:
-    "Unser Fuhrpark: Neoplan Skyliner Doppeldecker (76 und 80 Plätze), Neoplan Cityliner, Scania Touring und Linienbus – alle Euro 6, mit Klimaanlage und Sicherheitsgurten.",
+    "Unser Fuhrpark: Neoplan Skyliner Doppeldecker (76 und 80 Plätze), Neoplan Cityliner, Scania Touring und Linienbus – alle Euro 6, mit Klimaanlage.",
   path: "/fuhrpark",
   image: "/img/fuhrpark/skyliner-76/aussen.jpg",
 });

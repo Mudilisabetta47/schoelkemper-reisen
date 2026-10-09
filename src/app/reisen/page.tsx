@@ -8,7 +8,7 @@ import { JsonLd, abs, pageMeta } from "@/lib/seo";
 export const metadata: Metadata = pageMeta({
   title: "Busreisen & Tagesfahrten ab Hannover",
   description:
-    "Alle aktuellen Busreisen von Scholkemper Reisen: Tagesfahrten, Weihnachtsmärkte, Mehrtagesfahrten und Gruppenreisen ab Ronnenberg-Empelde und Hannover – mit Terminen, Preisen und Verfügbarkeit.",
+    "Aktuelle Busreisen ab Hannover und Ronnenberg-Empelde: Tagesfahrten, Weihnachtsmärkte, Mehrtagesfahrten – mit Terminen, Preisen und Verfügbarkeit.",
   path: "/reisen",
 });
 

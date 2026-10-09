@@ -1345,3 +1345,23 @@ a.ccard:hover {
   display: flex;
   align-items: center;
 }
+
+/* Grid-Kinder dürfen schrumpfen (keine Überbreite durch Scroll-Inhalte) */
+.req-layout > *,
+.form-layout > *,
+.fleet-row > *,
+.contact > *,
+.jobs > *,
+.split-block > *,
+.grid-2 > * {
+  min-width: 0;
+}
+@media (max-width: 420px) {
+  .feat-list {
+    grid-template-columns: 1fr;
+  }
+  .req__summary dl > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}

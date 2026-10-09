@@ -90,24 +90,28 @@ export function TripExplorer({
   const [drawer, setDrawer] = useState(false);
   const qId = useId();
 
-  const state = useMemo(() => {
+  const fromUrl = useMemo(() => {
     const s = {} as State;
     KEYS.forEach((k) => (s[k] = sp.get(k) ?? ""));
     return s;
   }, [sp]);
 
-  // Suchfeld lokal halten, damit das Tippen nicht bei jedem Zeichen navigiert
-  const [q, setQ] = useState(state.q);
-  const [lastQ, setLastQ] = useState(state.q);
-  if (state.q !== lastQ) {
-    setLastQ(state.q);
-    setQ(state.q);
+  // Optimistischer Zustand: Filter reagieren sofort, die URL folgt (teilbar, Zurück-Taste)
+  const [state, setState] = useState<State>(fromUrl);
+  const [lastUrl, setLastUrl] = useState(fromUrl);
+  if (fromUrl !== lastUrl) {
+    setLastUrl(fromUrl);
+    // Leerzeichen am Ende der Eingabe nicht wegnehmen, während getippt wird
+    setState({ ...fromUrl, q: fromUrl.q === state.q.trim() ? state.q : fromUrl.q });
   }
+  const q = state.q;
+  const setQ = (v: string) => setState((st) => ({ ...st, q: v }));
 
   const set = (patch: Partial<State>) => {
-    const next = new URLSearchParams(sp.toString());
-    Object.entries(patch).forEach(([k, v]) => (v ? next.set(k, v) : next.delete(k)));
-    if (next.get("sort") === "relevanz") next.delete("sort");
+    const nextState = { ...state, ...patch };
+    setState(nextState);
+    const next = new URLSearchParams();
+    KEYS.forEach((k) => nextState[k] && !(k === "sort" && nextState[k] === "relevanz") && next.set(k, k === "q" ? nextState[k].trim() : nextState[k]));
     const qs = next.toString();
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
   };
@@ -116,11 +120,16 @@ export function TripExplorer({
   const onQ = (v: string) => {
     setQ(v);
     window.clearTimeout(debounce.current);
-    debounce.current = window.setTimeout(() => set({ q: v.trim() }), 280);
+    debounce.current = window.setTimeout(() => {
+      const next = new URLSearchParams(window.location.search);
+      if (v.trim()) next.set("q", v.trim());
+      else next.delete("q");
+      const qs = next.toString();
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    }, 350);
   };
 
-  const live = { ...state, q };
-  const results = useMemo(() => filter(trips, live, fixedArt), [trips, live.q, live.art, live.monat, live.dauer, live.preis, live.ziel, live.verfuegbar, live.sort, fixedArt]); // eslint-disable-line react-hooks/exhaustive-deps
+  const results = useMemo(() => filter(trips, state, fixedArt), [trips, state, fixedArt]);
 
   const months = useMemo(() => [...new Set(trips.flatMap((t) => t.months))].sort().map((m) => ({ value: m, label: fmtMonth(m) })), [trips]);
   const active = KEYS.filter((k) => k !== "sort" && k !== "q" && state[k]).length + (q ? 1 : 0);
@@ -135,7 +144,9 @@ export function TripExplorer({
   }, [drawer]);
 
   const reset = () => {
-    setQ("");
+    const empty = {} as State;
+    KEYS.forEach((k) => (empty[k] = ""));
+    setState(empty);
     router.replace(pathname, { scroll: false });
   };
 

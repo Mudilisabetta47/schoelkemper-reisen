@@ -6,7 +6,7 @@ import { fmtDate, fmtDays, fmtPrice, fmtRange, STATUS_LABEL } from "@/lib/format
 import type { TripVariant } from "@/lib/reisecms/types";
 import { SITE } from "@/lib/site";
 
-export interface BookingVariant extends Pick<TripVariant, "id" | "start" | "end" | "days" | "status" | "prices" | "bookingTo"> {}
+export type BookingVariant = Pick<TripVariant, "id" | "start" | "end" | "days" | "status" | "prices" | "bookingTo">;
 
 const bookable = (v: BookingVariant) => v.status === "verfuegbar" || v.status === "wenige";
 

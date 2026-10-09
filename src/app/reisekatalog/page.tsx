@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Suspense } from "react";
 import { InquiryForm } from "@/components/forms/InquiryForm";
 import { PageHero } from "@/components/layout/PageHero";
@@ -43,7 +44,7 @@ export default function KatalogPage() {
                 <span>Herunterladen</span>
               </a>
             </div>
-            <p className="muted">Die aktuellsten Termine finden Sie immer unter <a href="/reisen">Reisen</a>.</p>
+            <p className="muted">Die aktuellsten Termine finden Sie immer unter <Link href="/reisen">Reisen</Link>.</p>
           </div>
         </div>
       </section>

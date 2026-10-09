@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { useId, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { Icon } from "@/components/ui/Icon";
 import { EMAIL_RE, REQUIRED, type InquiryType } from "@/lib/inquiry";
 import { SITE } from "@/lib/site";
@@ -35,7 +35,10 @@ export function InquiryForm({
 }) {
   const sp = useSearchParams();
   const uid = useId();
-  const t0 = useRef(Date.now());
+  const t0 = useRef(0);
+  useEffect(() => {
+    t0.current = Date.now();
+  }, []);
   const required = new Set(REQUIRED[type]);
   const [data, setData] = useState<Record<string, string>>(() => {
     const init: Record<string, string> = {};

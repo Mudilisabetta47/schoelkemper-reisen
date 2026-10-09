@@ -10,7 +10,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = pageMeta({
   title: "Über uns – Familienunternehmen aus Empelde",
   description:
-    "Scholkemper Reisen GmbH: Familienunternehmen mit Reisebüro und Betriebshof in Ronnenberg-Empelde bei Hannover. Busreisen, Busvermietung, Transfers – und das Team dahinter.",
+    "Scholkemper Reisen GmbH: Familienunternehmen mit Reisebüro und Betriebshof in Ronnenberg-Empelde bei Hannover – Busreisen, Busvermietung und das Team.",
   path: "/ueber-uns",
   image: "/img/bus/betriebshof-reihe.jpg",
 });

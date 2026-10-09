@@ -159,6 +159,7 @@ export function buildCatalog(input: {
       days: primary.days,
       priceFrom,
       priceLabel: vs.length > 1 || primary.prices.length > 1 ? `ab, ${firstPriceLabel}` : firstPriceLabel,
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       variants: vs.map(({ detail: _d, listingImage: _l, ...v }) => v),
     };
   });

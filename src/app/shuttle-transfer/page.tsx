@@ -9,7 +9,7 @@ import { JsonLd, pageMeta, serviceLd } from "@/lib/seo";
 export const metadata: Metadata = pageMeta({
   title: "Shuttle & Transfer in Hannover – Messe, Flughafen, Events",
   description:
-    "Shuttlebus und Transfers in Hannover: Messe-Shuttle, Flughafen-Shuttle, Transfers für Sport und Events, Zubringer für Gruppen – mit Reisebussen von 48 bis 80 Plätzen.",
+    "Shuttlebus in Hannover: Messe-Shuttle, Flughafen-Shuttle, Transfers für Sport und Events, Zubringer für Gruppen – Reisebusse mit 48 bis 80 Plätzen.",
   path: "/shuttle-transfer",
   image: "/img/galerie/atletico/04.jpg",
 });

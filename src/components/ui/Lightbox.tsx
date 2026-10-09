@@ -28,10 +28,7 @@ export function Lightbox({
   const opener = useRef<HTMLElement | null>(null);
   const touchX = useRef(0);
 
-  const open = useCallback((i: number) => {
-    opener.current = document.activeElement as HTMLElement;
-    setIdx(i);
-  }, []);
+  const open = useCallback((i: number) => setIdx(i), []);
   const close = useCallback(() => setIdx(null), []);
   const step = useCallback((d: number) => setIdx((i) => (i === null ? i : (i + d + images.length) % images.length)), [images.length]);
 
@@ -41,8 +38,10 @@ export function Lightbox({
     document.documentElement.style.overflow = isOpen ? "hidden" : "";
     if (!isOpen) {
       opener.current?.focus();
+      opener.current = null;
       return;
     }
+    if (!opener.current) opener.current = document.activeElement as HTMLElement;
     dialog.current?.querySelector<HTMLElement>(".lb__close")?.focus();
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") close();

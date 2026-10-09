@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "@/components/layout/PageHero";
-import { CtaBand, FaqList, FeatureGrid, SectionHead, Split, Steps } from "@/components/ui/Blocks";
+import { CtaBand, FaqList, SectionHead, Split, Steps } from "@/components/ui/Blocks";
 import { ButtonLink } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
 import { Pic } from "@/components/ui/Pic";
@@ -11,7 +11,7 @@ import { faqLd, JsonLd, pageMeta, serviceLd } from "@/lib/seo";
 export const metadata: Metadata = pageMeta({
   title: "Bus mieten in Hannover – Busvermietung mit Fahrer",
   description:
-    "Reisebus mit Fahrer mieten in Hannover und Region: 48 bis 80 Plätze, Doppeldecker, Cityliner, Scania Touring. Für Gruppen, Vereine, Firmen, Messen, Flughafen und Klassenfahrten.",
+    "Reisebus mit Fahrer mieten in Hannover: 48 bis 80 Plätze, Doppeldecker, Cityliner, Scania Touring – für Gruppen, Vereine, Firmen, Messen und Schulen.",
   path: "/busvermietung",
   image: "/img/bus/betriebshof-panorama.jpg",
 });
