@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Scholkemper Reisen – Website
 
-## Getting Started
+Relaunch von www.scholkemper-reisen.de. Next.js 16 (App Router, Cache Components), React 19, TypeScript, handgeschriebenes CSS auf Design-Tokens, eigenes Motion-System nach dem Motion-Handover (keine Animations-Bibliothek).
 
-First, run the development server:
+## Start
 
 ```bash
+npm install
+cp .env.example .env.local   # Werte eintragen
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Befehl | Zweck |
+|---|---|
+| `npm run dev` | Entwicklung |
+| `npm run build && npm start` | Produktion |
+| `npm run reisen:sync` | Reise-Snapshot aus dem reise-CMS aktualisieren (Fallback) |
+| `node scripts/qa.mjs` | QA: SEO-Tags, Duplikate, Overflow in 10 Viewports, Reisesuche, Busanfrage, Reduced Motion |
+| `node scripts/perf.mjs` | Frame-Zeiten, LCP, CLS beim Scroll-Durchlauf |
+| `node scripts/shot.mjs <dir> 1440x900 /pfad@scrollY` | Screenshots |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Aufbau
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/                 Seiten (App Router), API-Routen, Sitemap, Robots
+  components/
+    home/              Startseite: Hero, Reisefinder, Rail, Bus-Journey, Fuhrpark, Sektionen
+    reisen/            Reisekarte, Liste/Filter, Buchungspanel
+    forms/             Busanfrage (6 Schritte), allgemeines Anfrageformular
+    layout/            Header + Mega-Menü, Footer, Bottom-Bar, Seitenkopf
+    ui/                Logo (Original-SVG), Icons, SplitText, Bilder, Lightbox, Bausteine
+  motion/              Smooth Scroll, Scroll-Timelines (0→1), Reveals, Cursor/Magnet
+  lib/reisecms/        Anbindung reise-CMS (Parser, Abruf, Cache, Snapshot)
+  lib/                 Unternehmensdaten (NAP), SEO/JSON-LD, Formatierung, Navigation
+  data/                Fuhrpark, Team, Jobs, Reise-Info, Galerie, Bildmaße, Reise-Snapshot
+  content/legal.ts     Rechtstexte (unverändert übernommen)
+  styles/              tokens.css, base, motion, layout, sections, pages, content
+docs/                  REISE-CMS.md, SEO-MIGRATION.md, ABSCHLUSSBERICHT.md
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Wichtige Regeln:
+- **Fakten nur aus `src/lib/site.ts`, `src/data/*` und dem reise-CMS.** Keine Zahlen erfinden.
+- **Reisen nie hart codieren** – sie kommen aus dem CMS (siehe `docs/REISE-CMS.md`).
+- **Bewegung nur über `transform`/`opacity`**, jede Scroll-Animation ist eine Funktion des Fortschritts `p` (0..1).
