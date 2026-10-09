@@ -1,0 +1,118 @@
+/*
+ * Scholkemper Reisen – Design-Tokens
+ * Abgeleitet aus dem Bestand (nicht erfunden):
+ *   Phoenix-Rot  #992233  – Logo-Bildmarke, Website theme-color (#923)
+ *   Logo-Grau    #555555  – Wortmarke "Scholkemper"
+ *   Sand         #FAEDDC  – Hintergrund der Print-/Flyer-Grafik ("schönsten Tage des Jahres")
+ *   Graphit      #1C2125  – dunkles Fensterband der Busse
+ *   Weiß                  – Lackierung der Reisebusse
+ * Alle Abstufungen entstehen per color-mix aus diesen Basiswerten.
+ */
+:root {
+  /* Marke */
+  --brand-primary: #992233;
+  --brand-primary-dark: color-mix(in oklab, #992233 78%, #000);
+  --brand-primary-deep: color-mix(in oklab, #992233 52%, #000);
+  --brand-primary-light: color-mix(in oklab, #992233 80%, #fff);
+  --brand-primary-tint: color-mix(in oklab, #992233 8%, #fff);
+  --brand-secondary: #555555;
+  --brand-sand: #faeddc;
+  --brand-sand-deep: color-mix(in oklab, #faeddc 82%, #992233 4%, #555 14%);
+  --brand-graphite: #1c2125;
+  --brand-accent: var(--brand-primary);
+
+  /* Flächen */
+  --surface: #ffffff;
+  --surface-soft: color-mix(in oklab, #faeddc 38%, #fff);
+  --surface-sand: var(--brand-sand);
+  --surface-night: #0f1113;
+  --surface-night-2: #171a1d;
+  --surface-night-3: #22272b;
+
+  /* Text */
+  --ink: #17191b;
+  --ink-soft: #33373a;
+  --muted: #61656a;
+  --muted-2: #8a8e93;
+  --on-dark: #f6f4f1;
+  --on-dark-muted: color-mix(in oklab, #f6f4f1 66%, transparent);
+  --line: color-mix(in oklab, #17191b 12%, transparent);
+  --line-strong: color-mix(in oklab, #17191b 22%, transparent);
+  --line-dark: color-mix(in oklab, #f6f4f1 14%, transparent);
+
+  /* Status (Reisen) */
+  --status-ok: #2f6b4f;
+  --status-low: #a8661a;
+  --status-off: #6d6f73;
+
+  /* Typografie */
+  --font-sans: var(--font-open-sans), "Open Sans", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --font-serif: var(--font-instrument), "Times New Roman", serif;
+  --fs-label: 0.75rem;
+  --fs-small: 0.875rem;
+  --fs-body: 1.0625rem;
+  --fs-lead: clamp(1.125rem, 0.6vw + 1rem, 1.375rem);
+  --fs-h4: clamp(1.25rem, 0.5vw + 1.1rem, 1.5rem);
+  --fs-h3: clamp(1.5rem, 1.2vw + 1.1rem, 2.25rem);
+  --fs-h2: clamp(2.25rem, 3.6vw + 1rem, 4.75rem);
+  --fs-h1: clamp(2.75rem, 7vw + 0.5rem, 9rem);
+  --fs-mega: clamp(3.25rem, 11vw, 13.5rem);
+  --lh-tight: 0.88;
+  --lh-head: 1.02;
+  --lh-body: 1.6;
+  --tracking-label: 0.14em;
+  --tracking-head: -0.01em;
+
+  /* Abstände (4er-Raster) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --section-y: clamp(5rem, 9vw, 10rem);
+  --gutter: clamp(1rem, 3.2vw, 3rem);
+  --container: 1440px;
+  --container-narrow: 820px;
+
+  /* Radien */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+  --radius-pill: 999px;
+
+  /* Schatten */
+  --shadow-sm: 0 1px 2px rgb(20 20 25 / 0.06), 0 2px 8px rgb(20 20 25 / 0.05);
+  --shadow-md: 0 6px 24px rgb(20 20 25 / 0.08), 0 2px 6px rgb(20 20 25 / 0.05);
+  --shadow-lg: 0 30px 80px rgb(20 20 25 / 0.18), 0 8px 24px rgb(20 20 25 / 0.08);
+  --shadow-brand: 0 18px 40px color-mix(in oklab, #992233 30%, transparent);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-soft: cubic-bezier(0.33, 1, 0.68, 1);
+  --dur-xs: 160ms;
+  --dur-sm: 260ms;
+  --dur-md: 520ms;
+  --dur-lg: 900ms;
+  --dur-xl: 1400ms;
+
+  /* Layout */
+  --header-h: 76px;
+  --bottom-bar-h: 0px;
+
+  color-scheme: light;
+}
+
+@media (max-width: 899px) {
+  :root {
+    --header-h: 64px;
+    --bottom-bar-h: 68px;
+  }
+}

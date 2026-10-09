@@ -1,0 +1,1288 @@
+{
+ "fetchedAt": "2026-10-09T12:41:01.890Z",
+ "source": "snapshot",
+ "trips": [
+  {
+   "slug": "polenmarkt-slubice",
+   "title": "Polenmarkt Slubice",
+   "isNew": false,
+   "teaser": "<p>Besuchen Sie mit uns einen der schön&shy;sten pol&shy;nischen Ein&shy;kauf&shy;smärkte: Slubice. Hinter der pol&shy;nischen Grenze haben Sie die Mög&shy;lich&shy;keit preis&shy;werte Ange&shy;bote an Kleidung, Haus&shy;halts&shy;waren, Lebe&shy;nsmit&shy;teln und Kun&shy;sthand&shy;werk zu kaufen.</p> <p>Außer&shy;dem wer&shy;den Sie Ange&shy;bote ent&shy;dec&shy;ken, wel&shy;che nur hier käuf&shy;lich zu erwer&shy;ben sind und das eine oder andere Schnäpp&shy;chen fin&shy;den. Da Polen für seine gute, traditionelle Küche bekannt ist, kön&shy;nen Sie auch in Slubice in einem der ört&shy;lichen Res&shy;taurants lec&shy;ker und kos&shy;ten&shy;gün&shy;stig essen.</p>",
+   "categories": [
+    "polenmarkt",
+    "tagesfahrten"
+   ],
+   "countries": [],
+   "images": [
+    {
+     "path": "/media/image/reisecms/Shopping/Marktstand_-_Foto_Dan_Race_Dollarphotoclub_68157502.jpg",
+     "credit": "Foto: Dan Race / Dollarphotoclub"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 45,
+   "priceLabel": "ab, pro Person",
+   "variants": [
+    {
+     "id": 2298,
+     "cmsPath": "/reise/2298_Polenmarkt_Slubice",
+     "start": "2026-10-10",
+     "end": "2026-10-10",
+     "days": 1,
+     "dateLabel": "Samstag 10.10.2026",
+     "status": "ausgebucht",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 45
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2294,
+     "cmsPath": "/reise/2294_Polenmarkt_Slubice",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "days": 1,
+     "dateLabel": "Samstag 12.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 45
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "hollaendischer-markt-enschede",
+   "title": "Holländischer Markt Enschede",
+   "subtitle": "und Gartencenter Oosterik",
+   "isNew": false,
+   "teaser": "Der Fisch ist besonders beliebt, aber Du bekommst hier auch Blumen, Käse, frisches Obst und Gemüse.<br>Am Nachmittag geht es zum Oosterik-Gartencenter, 50.000 m2 Inspiration",
+   "categories": [
+    "tagesfahrten"
+   ],
+   "countries": [
+    "Deutschland",
+    "Niederlande"
+   ],
+   "images": [
+    {
+     "path": "/media/image/_deltaplan/holland.jpg"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 42,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2300,
+     "cmsPath": "/reise/2300_Hollaendischer_Markt_Enschede",
+     "start": "2026-11-07",
+     "end": "2026-11-07",
+     "days": 1,
+     "dateLabel": "Samstag 07.11.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 42
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [
+      {
+       "key": "verlauf",
+       "title": "Reiseinformation",
+       "html": "Der Markt spiegelt die Vielseitigkeit dieser Stadt wieder; es werden frische Lebensmittel, Blumen, Haushaltsartikel und allerlei Schnäppchen angeboten. <br><br>Lust auf Fisch? <br>Der Fischmarkt ist sowohl national, als auch international für seine diversen Delikatessen bekannt. Die Fischstände sind ein großer Publikumsmagnet auf dem Markt in Enschede. Viele Touristen, aber auch Enschedes Bewohner selbst, kommen auf den Markt, um frischen Hering, Backfisch, Kibbeling oder andere Meeresspezialitäten zu kaufen. Ob herrlichen Lachs, Kabeljau oder Thunfisch - auf dem Fischmarkt in Enschede findet Ihr alles, was das Herz begehrt.<br><br>Gartencenter Oosterik:<br>Für diejenigen, die eine große Auswahl an Gegenständen wie Gartenartikel , Blumen , Zimmerpflanzen und Wohnaccessoires haben möchten, sollte ein Einkaufstag unbedingt zum Tuincentrum Oosterik in Denekamp kommen."
+      }
+     ],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "uefa-nations-league",
+   "title": "UEFA Nations League",
+   "subtitle": "Deutschland-Holland",
+   "isNew": false,
+   "categories": [
+    "mehrtagesfahrten"
+   ],
+   "countries": [],
+   "images": [],
+   "usesFallbackImage": true,
+   "days": 2,
+   "priceFrom": 349,
+   "priceLabel": "ab, Unterbringung im Doppelzimmer (inkl. ÜF)",
+   "variants": [
+    {
+     "id": 2333,
+     "cmsPath": "/reise/2333_UEFA_Nations_League",
+     "start": "2026-11-16",
+     "end": "2026-11-17",
+     "days": 2,
+     "dateLabel": "Mo 16.11. - Di 17.11.2026",
+     "status": "ausgebucht",
+     "bookingTo": "2026-08-20",
+     "prices": [
+      {
+       "label": "Unterbringung im Doppelzimmer (inkl. ÜF)",
+       "amount": 349
+      },
+      {
+       "label": "Unterbringung im Einzelzimmer (inkl. ÜF)",
+       "amount": 424
+      }
+     ],
+     "extras": [
+      {
+       "label": "Aufpreis Eintrittskarte ( Gegengrade)",
+       "amount": 45
+      },
+      {
+       "label": "Stadtrundfahrt",
+       "amount": 25
+      }
+     ],
+     "stops": [
+      {
+       "time": "08:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt",
+      "1x Übernachtung im DZ",
+      "1x Frühstück",
+      "Eintrittskarte KURVE Sitzplatz"
+     ],
+     "sections": [],
+     "minParticipants": 20,
+     "maxParticipants": 40,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "nachmittags-kaffeefahrt",
+   "title": "Nachmittags-Kaffeefahrt",
+   "isNew": false,
+   "teaser": "Sie dürfen sich auf einen ganz entspannten Nachmittag freuen - lange Strecken zu laufen gibt es nicht!",
+   "categories": [
+    "tagesfahrten"
+   ],
+   "countries": [],
+   "images": [
+    {
+     "path": "/media/image/scholkemper/winbeutel.jpg"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 42,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2325,
+     "cmsPath": "/reise/2325_Nachmittags-Kaffeefahrt",
+     "start": "2026-11-17",
+     "end": "2026-11-17",
+     "days": 1,
+     "dateLabel": "Dienstag 17.11.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 42
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "11:30 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "11:40 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "12:30 Uhr",
+       "place": "ZOB Hannover"
+      },
+      {
+       "time": "12:50 Uhr",
+       "place": "Anderten ( wird noch besprochen)"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt, Kaffee + Kuchen"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "weihnachtsmarkt-leipzig",
+   "title": "Weihnachtsmarkt Leipzig",
+   "isNew": false,
+   "teaser": "Die Tradition des Leipziger Weihnachtsmarktes reicht bis in das 15. Jahrhundert zurück. Auf Grund seines einzigartigen kulturellen und kulinarischen Angebotes inmitten der historischen Altstadt, hat er sich inzwischen einen fast legendären Ruf erworben. Mit seinen 250 Ständen ist er einer der größten und schönsten Weihnachtsmärkte in Deutschland.",
+   "categories": [
+    "tagesfahrten"
+   ],
+   "countries": [],
+   "images": [
+    {
+     "path": "/media/image/weihnachten/leipzig_weihnachtsmarkt_-_foto_lts-studio80.jpg",
+     "credit": "Foto: lts studio80"
+    },
+    {
+     "path": "/media/image/reisecms/Deutschland/Sachsen/Dresden/Dresdner_Stollen_-_Foto_dittrich.jpg",
+     "credit": "Foto: dittrich"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 54,
+   "priceLabel": "ab, pro Person",
+   "variants": [
+    {
+     "id": 2328,
+     "cmsPath": "/reise/2328_Weihnachtsmarkt_Leipzig",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "days": 1,
+     "dateLabel": "Samstag 28.11.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 54
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:10 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:15 Uhr",
+       "place": "Badenstedt, Üstra Haltestelle Safariweg"
+      },
+      {
+       "time": "06:20 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2329,
+     "cmsPath": "/reise/2329_Weihnachtsmarkt_Leipzig",
+     "start": "2026-12-14",
+     "end": "2026-12-14",
+     "days": 1,
+     "dateLabel": "Montag 14.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 54
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:10 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:15 Uhr",
+       "place": "Badenstedt, Üstra Haltestelle Safariweg"
+      },
+      {
+       "time": "06:20 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "ueberraschungsfahrt",
+   "title": "Überraschungsfahrt",
+   "isNew": false,
+   "teaser": "Sie dürfen sich auf einen ganz entspannten Tag freuen - lange Strecken zu laufen gibt es nicht!",
+   "categories": [
+    "tagesfahrten"
+   ],
+   "countries": [
+    "Deutschland"
+   ],
+   "images": [
+    {
+     "path": "/media/image/_deltaplan/fotolia_56957674_gluecksschwein.jpg"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 70,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2324,
+     "cmsPath": "/reise/2324_Ueberraschungsfahrt",
+     "start": "2026-12-02",
+     "end": "2026-12-02",
+     "days": 1,
+     "dateLabel": "Mittwoch 02.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 70
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "08:40 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "08:50 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "09:20 Uhr",
+       "place": "Leinhausen, Bahnhof"
+      },
+      {
+       "time": "10:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt, Mittagessen, Rundfahrt vor Ort oder Besichtigung, Kaffee + Kuchen"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "weihnachtsmarkt-erfurt",
+   "title": "Weihnachtsmarkt Erfurt",
+   "isNew": false,
+   "teaser": "<p>Die Lan&shy;deshaupt&shy;stadt Thürin&shy;gens schmückt sich fest&shy;lich im Advent. Geprägt durch einen der am besten erhal&shy;tenen mit&shy;telal&shy;ter&shy;lichen Stadt&shy;kerne Deutsch&shy;lands ist die Stadt eine reiz&shy;volle Mischung aus reichen Pat&shy;rizier&shy;häusern und liebe&shy;voll rekonst&shy;ruier&shy;ten Fach&shy;wer&shy;khäusern.</p> <p>Marien&shy;dom und Severikir&shy;che, dieses monumen&shy;tale unver&shy;wech&shy;sel&shy;bare Bauen&shy;semble und zug&shy;leich Wahrzeichen Erfurts, sind in war&shy;mes Licht getaucht. Weihnachts&shy;melodien erklin&shy;gen und der Duft von Glühwein und Pfef&shy;fer&shy;kuchen liegt in der Luft.</p>",
+   "categories": [
+    "tagesfahrten",
+    "weihnachtszeit"
+   ],
+   "countries": [
+    "Deutschland"
+   ],
+   "images": [
+    {
+     "path": "/media/image/weihnachten/erfurter_weihnachtsmarkt_-_foto_verein_staedtetourismus_in_thueringen.jpg",
+     "credit": "Foto: verein staedtetourismus in thueringen"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 54,
+   "priceLabel": "ab, pro Person",
+   "variants": [
+    {
+     "id": 2326,
+     "cmsPath": "/reise/2326_Weihnachtsmarkt_Erfurt",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "days": 1,
+     "dateLabel": "Samstag 05.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 54
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:30 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "07:30 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2327,
+     "cmsPath": "/reise/2327_Weihnachtsmarkt_Erfurt",
+     "start": "2026-12-18",
+     "end": "2026-12-18",
+     "days": 1,
+     "dateLabel": "Freitag 18.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 54
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:30 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "07:30 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "nikolausfahrt-zum-harzer-jodlermeister",
+   "title": "Nikolausfahrt \"Zum Harzer Jodlermeister\"",
+   "subtitle": "geeignet für Gruppen",
+   "isNew": false,
+   "teaser": "Ausflug zum &quot;Harzer Jodlermeister&quot; in den Ostharz nach Treseburg. Zum Mittag wird ein Gänsebraten mit Beilagen serviert.",
+   "categories": [
+    "gruppenreise",
+    "tagesfahrten",
+    "weihnachtszeit"
+   ],
+   "countries": [
+    "Deutschland"
+   ],
+   "images": [],
+   "usesFallbackImage": true,
+   "days": 1,
+   "priceFrom": 89,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2322,
+     "cmsPath": "/reise/2322_Nikolausfahrt_Zum_Harzer_Jodlermeister_",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "days": 1,
+     "dateLabel": "Sonntag 06.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 89
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "08:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "08:20 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "08:45 Uhr",
+       "place": "Leinhausen, Bahnhof"
+      },
+      {
+       "time": "09:30 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt",
+      "Gänsebraten",
+      "Weihnachtliche musikalische Reise",
+      "Kaffeegedeck ( 1 Stück Torte, Kaffee/Tee \"satt\" )",
+      "Geschenk"
+     ],
+     "sections": [
+      {
+       "key": "verlauf",
+       "title": "Reiseinformation",
+       "html": "Nach dem Mittagessen erwartet Sie eine &quot;Weihnachtliche musikalische Reise&quot; mit Jodlern, Martina &amp; Andreas...., Programm und Bescherung.<br>Bevor wir die Heimreise antreten, stärken Sie sich noch bei Kaffee &amp; Kuchen."
+      }
+     ],
+     "minParticipants": 30,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "weihnachtsmarkt-muenster",
+   "title": "Weihnachtsmarkt Münster",
+   "isNew": false,
+   "teaser": ". Der Advent ist wohl die schönste Zeit in Münster: der Prinzipalmarkt erstrahlt in goldenem Glanz, Giebelhäuser und Kirchen sind dezent beleuchtet und die Geschäfte festlich dekoriert, Lichterbäume schmücken die Straßen und der Duft von Tannengrün und Glühwein zieht<br>durch die Straßen. Die Weihnachtsmärkte laden mit rund 300 ständen zum Bummeln, Einkaufen und Genießen ein. Freuen Sie sich auf eine schöne Adventszeit in Münster!",
+   "categories": [
+    "tagesfahrten"
+   ],
+   "countries": [
+    "Deutschland"
+   ],
+   "images": [
+    {
+     "path": "/media/image/reisecms/Feiertage/Weihnachten/Weihnachtskrippe_-_Foto_Kaiya_Rose_Fotolia_11260041.jpg",
+     "credit": "Foto: Kaiya Rose / Fotolia"
+    },
+    {
+     "path": "/media/image/reisecms/Deutschland/Nordrhein-Westfalen/Muenster/Muenster_Westfalen_Schloss_-_Foto_Blacky_Fotolia_62826604.jpg",
+     "credit": "Foto: Blacky / Fotolia"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 52,
+   "priceLabel": "ab, pro Person",
+   "variants": [
+    {
+     "id": 2331,
+     "cmsPath": "/reise/2331_Weihnachtsmarkt_Muenster",
+     "start": "2026-12-07",
+     "end": "2026-12-07",
+     "days": 1,
+     "dateLabel": "Montag 07.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 52
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "07:10 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "07:20 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "08:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2330,
+     "cmsPath": "/reise/2330_Weihnachtsmarkt_Muenster",
+     "start": "2026-12-19",
+     "end": "2026-12-19",
+     "days": 1,
+     "dateLabel": "Samstag 19.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 52
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "07:10 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "07:20 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "08:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "koelner-weihnachtsmarkt",
+   "title": "Kölner Weihnachtsmarkt",
+   "isNew": true,
+   "categories": [
+    "tagesfahrten",
+    "weihnachtszeit"
+   ],
+   "countries": [],
+   "images": [],
+   "usesFallbackImage": true,
+   "days": 1,
+   "priceFrom": 59,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2332,
+     "cmsPath": "/reise/2332_Koelner_Weihnachtsmarkt",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "days": 1,
+     "dateLabel": "Samstag 12.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 59
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "07:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "07:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "08:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt",
+      "Glühwein am Bus"
+     ],
+     "sections": [
+      {
+       "key": "verlauf",
+       "title": "Reiseinformation",
+       "html": "Nach einer entspannten Anreise im komfortablen Reisebus erreichen wir am Vormittag Köln. Schon beim Aussteigen empfängt Sie der festliche Zauber der Stadt, die sich in der Adventszeit in ein Lichtermeer verwandelt. Der Duft von Zimt, gebrannten Mandeln und heißem Glühwein liegt in der Luft und macht Lust auf einen genussvollen Tag. Schlendern Sie durch die berühmten Kölner Weihnachtsmärkte, die an verschiedenen Orten in der Stadt zu finden sind. Der Weihnachtsmarkt am Dom beeindruckt mit seinem prachtvollen Lichterhimmel und der imposanten Kulisse des Kölner Doms. Auch der historische Markt am Alter Markt und der märchenhafte „Heinzels Wintermärchen&quot;-Markt laden zum Bummeln und Verweilen ein. Genießen Sie traditionelle Leckereien und entdecken Sie handgefertigte Geschenkideen. Nutzen Sie die freie Zeit, um weitere Highlights der Stadt zu erkunden. Ob ein Spaziergang entlang des Rheins, ein Besuch im Schokoladenmuseum oder eine Shoppingtour durch die festlich geschmückte Schildergasse - Köln bietet für jeden Geschmack das Richtige. Vielleicht möchten Sie auch die gemütliche Atmosphäre einer der zahlreichen Brauhäuser erleben und sich mit einer Tasse heißer Schokolade oder einem typischen Kölsch verwöhnen lassen.<br><br>Rückfahrt: 19.00 Uhr <br>Ankunft ca. 23.00 Uhr"
+      }
+     ],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "slug": "gruppenreise",
+   "cmsName": "Gruppenreise",
+   "label": "Für Gruppen",
+   "kind": "reiseart",
+   "tripIds": [
+    2322
+   ]
+  },
+  {
+   "slug": "mehrtagesfahrten",
+   "cmsName": "Mehrtagesfahrten",
+   "label": "Mehrtagesfahrten",
+   "kind": "reiseart",
+   "tripIds": [
+    2333
+   ]
+  },
+  {
+   "slug": "polenmarkt",
+   "cmsName": "Polenmarkt",
+   "label": "Polenmarkt",
+   "kind": "reiseart",
+   "tripIds": [
+    2298,
+    2294
+   ]
+  },
+  {
+   "slug": "tagesfahrten",
+   "cmsName": "Tagesfahrten",
+   "label": "Tagesfahrten",
+   "kind": "reiseart",
+   "tripIds": [
+    2298,
+    2300,
+    2325,
+    2328,
+    2324,
+    2326,
+    2322,
+    2331,
+    2332,
+    2294,
+    2329,
+    2327,
+    2330
+   ]
+  },
+  {
+   "slug": "weihnachtszeit",
+   "cmsName": "Weihnachtszeit",
+   "label": "Weihnachtszeit",
+   "kind": "reiseart",
+   "tripIds": [
+    2326,
+    2322,
+    2332,
+    2327
+   ]
+  },
+  {
+   "slug": "deutschland",
+   "cmsName": "Deutschland",
+   "label": "Deutschland",
+   "kind": "land",
+   "tripIds": [
+    2300,
+    2324,
+    2326,
+    2327,
+    2322,
+    2331,
+    2330
+   ]
+  },
+  {
+   "slug": "niederlande",
+   "cmsName": "Niederlande",
+   "label": "Niederlande",
+   "kind": "land",
+   "tripIds": [
+    2300
+   ]
+  }
+ ]
+}

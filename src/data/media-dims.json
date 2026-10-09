@@ -1,0 +1,706 @@
+{
+"/img/bus/betriebshof-reisebusse.jpg": [
+1600,
+1200
+],
+"/img/bus/betriebshof-reihe.jpg": [
+1600,
+1200
+],
+"/img/bus/betriebshof-panorama.jpg": [
+1600,
+1200
+],
+"/img/bus/fahrsicherheitstraining-2025.jpg": [
+1600,
+1200
+],
+"/img/bus/bordkueche-buffet.jpg": [
+1600,
+1200
+],
+"/img/bus/reisebus-front.jpg": [
+720,
+960
+],
+"/img/bus/flotte-reihe.jpg": [
+1408,
+462
+],
+"/img/brand/slogan.jpg": [
+1600,
+900
+],
+"/img/fuhrpark/skyliner-80/aussen.jpg": [
+640,
+480
+],
+"/img/fuhrpark/skyliner-76/aussen.jpg": [
+640,
+480
+],
+"/img/fuhrpark/skyliner-76/innen-tische.jpg": [
+960,
+720
+],
+"/img/fuhrpark/skyliner-76/innen-oberdeck.jpg": [
+739,
+960
+],
+"/img/fuhrpark/skyliner-76/innen-unterdeck.jpg": [
+960,
+720
+],
+"/img/fuhrpark/cityliner-50/aussen-nacht.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-50/innen.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-48/aussen.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-48/innen-gang.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-48/innen-sitze.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-48/heckkueche.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-48/heckkueche-2.jpg": [
+640,
+480
+],
+"/img/fuhrpark/cityliner-48/innen-licht.jpg": [
+640,
+480
+],
+"/img/fuhrpark/scania-57/aussen.jpg": [
+640,
+480
+],
+"/img/fuhrpark/scania-57/cockpit.jpg": [
+1440,
+1080
+],
+"/img/fuhrpark/scania-57/innen.jpg": [
+1440,
+1080
+],
+"/img/fuhrpark/scania-57/sitze.jpg": [
+1440,
+1080
+],
+"/img/fuhrpark/scania-49/aussen.jpg": [
+640,
+480
+],
+"/img/team/annemarie-scholkemper.jpg": [
+1118,
+1600
+],
+"/img/team/heiko-scholkemper.jpg": [
+1616,
+3088
+],
+"/img/team/martin-witzger-nierhehn.jpg": [
+542,
+640
+],
+"/img/team/andreas-rinker.jpg": [
+547,
+729
+],
+"/img/team/oliver-prehn.jpg": [
+456,
+640
+],
+"/img/team/klaus-tennhardt.jpg": [
+1240,
+1572
+],
+"/img/galerie/erlebnistag-2022/01.jpg": [
+640,
+480
+],
+"/img/galerie/erlebnistag-2022/02.jpg": [
+640,
+480
+],
+"/img/galerie/erlebnistag-2022/03.jpg": [
+640,
+480
+],
+"/img/galerie/erlebnistag-2022/04.jpg": [
+1200,
+1600
+],
+"/img/galerie/erlebnistag-2022/05.jpg": [
+1200,
+1600
+],
+"/img/galerie/erlebnistag-2022/06.jpg": [
+1200,
+1600
+],
+"/img/galerie/erlebnistag-2022/07.jpg": [
+1200,
+1600
+],
+"/img/galerie/200908-tessin/01.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/02.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/03.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/04.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/05.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/06.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/07.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/08.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/09.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/10.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/11.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/12.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/13.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/14.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/15.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/16.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/17.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/18.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/19.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/20.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/21.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/22.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/23.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/24.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/25.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/26.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/27.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/28.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/29.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/30.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/32.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/33.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/35.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/36.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/37.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/38.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/39.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/40.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/41.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/42.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/43.jpg": [
+1195,
+1600
+],
+"/img/galerie/200908-tessin/44.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/45.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/46.jpg": [
+1600,
+1195
+],
+"/img/galerie/200908-tessin/47.jpg": [
+2592,
+1936
+],
+"/img/galerie/200908-tessin/48.jpg": [
+2592,
+1936
+],
+"/img/galerie/costa-brava/01.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/02.jpg": [
+1000,
+350
+],
+"/img/galerie/costa-brava/03.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/04.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/05.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/06.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/07.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/08.jpg": [
+1600,
+1200
+],
+"/img/galerie/costa-brava/09.jpg": [
+1600,
+1200
+],
+"/img/galerie/atletico/01.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/02.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/03.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/04.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/05.jpg": [
+800,
+600
+],
+"/img/galerie/atletico/06.jpg": [
+960,
+720
+],
+"/img/galerie/atletico/07.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/09.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/10.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/11.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/12.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/13.jpg": [
+1600,
+1195
+],
+"/img/galerie/atletico/14.jpg": [
+800,
+600
+],
+"/img/galerie/atletico/15.jpg": [
+800,
+600
+],
+"/img/galerie/atletico/16.jpg": [
+800,
+600
+],
+"/img/galerie/heidefahrt/01.jpg": [
+640,
+480
+],
+"/img/galerie/heidefahrt/02.jpg": [
+640,
+480
+],
+"/img/galerie/heidefahrt/03.jpg": [
+640,
+480
+],
+"/img/galerie/heidefahrt/04.jpg": [
+640,
+480
+],
+"/img/galerie/heidefahrt/05.jpg": [
+640,
+480
+],
+"/img/galerie/kiefersfelden-2021/01.jpg": [
+1328,
+747
+],
+"/img/galerie/kiefersfelden-2021/02.jpg": [
+640,
+480
+],
+"/img/galerie/kiefersfelden-2021/03.jpg": [
+640,
+480
+],
+"/img/galerie/kiefersfelden-2021/04.jpg": [
+640,
+480
+],
+"/img/galerie/kiefersfelden-2021/05.jpg": [
+640,
+480
+],
+"/img/galerie/kiefersfelden-2021/06.jpg": [
+640,
+480
+],
+"/img/galerie/kiefersfelden-2021/07.jpg": [
+640,
+480
+],
+"/img/galerie/abf-2011/01.jpg": [
+640,
+480
+],
+"/img/galerie/abf-2011/02.jpg": [
+640,
+480
+],
+"/img/galerie/abf-2011/03.jpg": [
+640,
+480
+],
+"/img/galerie/abf-2011/04.jpg": [
+640,
+480
+],
+"/img/galerie/abf-2011/05.jpg": [
+480,
+640
+],
+"/img/galerie/abf-2011/06.jpg": [
+640,
+480
+],
+"/img/galerie/abf-2011/07.jpg": [
+480,
+640
+],
+"/img/galerie/wintertraum-2015/01.jpg": [
+1600,
+1195
+],
+"/img/galerie/wintertraum-2015/02.jpg": [
+1600,
+811
+],
+"/img/galerie/wintertraum-2015/03.jpg": [
+1600,
+1195
+],
+"/img/galerie/wintertraum-2015/04.jpg": [
+1600,
+1195
+],
+"/img/galerie/wintertraum-2015/05.jpg": [
+1600,
+1195
+],
+"/img/galerie/wintertraum-2015/06.jpg": [
+1600,
+1195
+],
+"/img/galerie/stintessen/01.jpg": [
+1286,
+955
+],
+"/img/galerie/stintessen/02.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/03.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/04.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/05.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/06.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/07.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/08.jpg": [
+640,
+480
+],
+"/img/galerie/stintessen/09.jpg": [
+482,
+640
+],
+"/img/galerie/nikolaus-beim-singenden-wirt/01.jpg": [
+640,
+480
+],
+"/img/galerie/nikolaus-beim-singenden-wirt/02.jpg": [
+640,
+480
+],
+"/img/galerie/nikolaus-beim-singenden-wirt/03.jpg": [
+640,
+480
+],
+"/img/galerie/nikolaus-beim-singenden-wirt/04.jpg": [
+640,
+480
+],
+"/img/galerie/nikolaus-beim-singenden-wirt/05.jpg": [
+640,
+480
+],
+"/img/galerie/mosel/01.jpg": [
+640,
+480
+],
+"/img/galerie/mosel/02.jpg": [
+640,
+480
+],
+"/img/galerie/mosel/03.jpg": [
+640,
+480
+],
+"/img/galerie/mosel/04.jpg": [
+640,
+480
+],
+"/img/galerie/mosel/05.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/01.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/02.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/03.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/04.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/05.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/06.jpg": [
+640,
+480
+],
+"/img/galerie/lido-de-jesolo-venedig/07.jpg": [
+640,
+480
+],
+"/img/galerie/keukenhof-tulpenbluete/01.jpg": [
+640,
+480
+],
+"/img/galerie/keukenhof-tulpenbluete/02.jpg": [
+640,
+480
+],
+"/img/galerie/keukenhof-tulpenbluete/03.jpg": [
+640,
+480
+],
+"/img/galerie/keukenhof-tulpenbluete/04.jpg": [
+640,
+480
+],
+"/img/galerie/keukenhof-tulpenbluete/05.jpg": [
+640,
+480
+],
+"/img/galerie/keukenhof-tulpenbluete/06.jpg": [
+640,
+480
+],
+"/img/galerie/hoffest/01.jpg": [
+960,
+720
+],
+"/img/galerie/hoffest/02.jpg": [
+960,
+720
+],
+"/img/galerie/hoffest/03.jpg": [
+960,
+720
+],
+"/img/galerie/hoffest/04.jpg": [
+960,
+720
+],
+"/img/galerie/hoffest/05.jpg": [
+960,
+720
+],
+"/img/galerie/eurodeaf/02.jpg": [
+1280,
+960
+],
+"/img/galerie/eurodeaf/03.jpg": [
+1280,
+960
+],
+"/img/galerie/eurodeaf/04.jpg": [
+1280,
+960
+],
+"/img/galerie/eurodeaf/05.jpg": [
+1280,
+960
+],
+"/img/galerie/eurodeaf/06.jpg": [
+960,
+1280
+]
+}
