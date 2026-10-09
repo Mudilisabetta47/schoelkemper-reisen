@@ -18,14 +18,14 @@
 |---|---|---|
 | Parser | `src/lib/reisecms/parse.ts` | reine Funktionen: HTML → Daten (Liste, Detail, Kategorien) |
 | Abruf | `src/lib/reisecms/fetch-catalog.ts` | liest Liste, Reisearten, alle Detailseiten (inkl. Alternativtermine), gruppiert Termine gleichen Titels zu einer Reise |
-| Cache | `src/lib/reisecms/index.ts` | `'use cache'` + `cacheLife` (15 min Revalidierung, 24 h Ablauf), Tag `reisen` |
-| Fallback | `src/data/reisen.snapshot.json` | letzter bekannter Stand – wird genutzt, wenn das CMS nicht erreichbar ist (`npm run reisen:sync`) |
+| Daten beim Build | `scripts/sync-reisen.ts` → `src/data/reisen.snapshot.json` | vor jedem Build einmal live gelesen; daraus werden alle Seiten vorgerendert. Ist das CMS nicht erreichbar, bleibt der letzte Stand |
+| Aktualisierung | `.github/workflows/reisen-sync.yml` | prüft alle 30 min; bei Änderungen Commit → Cloudflare baut neu |
+| Laufzeit | `src/lib/reisecms/index.ts` | für Weiterleitungen/nicht vorgerenderte Seiten: Live-Abruf, 15 min je Worker-Instanz gemerkt |
 | Bilder | `src/app/cms-media/[...path]/route.ts` | Proxy mit `Referer`, danach Optimierung durch `next/image` (AVIF/WebP) |
 | Buchung | `src/components/reisen/BookingPanel.tsx` | Formular `POST {REISECMS_BASE_URL}/reise/buchen.php` mit `reise=<ID>` – identisch zum bisherigen Button |
-| Sofort-Update | `POST /api/revalidate` | nach Änderungen im CMS (Header `x-revalidate-secret`) |
 | Alte URLs | `src/app/reise/[...legacy]/route.ts` | `/reise/2328_…` → `/reisen/weihnachtsmarkt-leipzig` (301), Kategorien und Länder ebenso |
 
-**Grundsatz:** Es werden keine Reisen hart codiert. Neue, geänderte, ausgebuchte oder abgelaufene Reisen erscheinen automatisch (spätestens nach 15 Minuten). Vergangene Termine werden nie angezeigt – auch nicht aus einem alten Snapshot.
+**Grundsatz:** Es werden keine Reisen hart codiert. Neue, geänderte, ausgebuchte oder abgelaufene Reisen erscheinen automatisch – in der Regel nach 30 Minuten plus Build-Dauer (ca. 3 Minuten). Sofort aktualisieren: in GitHub unter Actions → „reisen-sync“ → „Run workflow“.
 
 **Status „Wenige Plätze“:** Das CMS veröffentlicht keine Restplatzzahl. Der Status ist im Datenmodell vorhanden und wird angezeigt, sobald eine Quelle ihn liefert. Bis dahin: „Verfügbar“, „Ausgebucht“, „Buchungsschluss“.
 
@@ -38,7 +38,7 @@ Die neue Website übernimmt die Domain `www.scholkemper-reisen.de`. Das reise-CM
 3. **Buchungsstrecke** unter der Subdomain testen (POST `reise/buchen.php`, Rückleitung nach Abschluss).
 4. **Newsletter-Formular** unter der Subdomain prüfen (DOI-Mail-Links zeigen dann auf die Subdomain).
 5. **Snapshot aktualisieren** direkt vor dem Livegang: `npm run reisen:sync`.
-6. Optional: CMS-Webhook oder manueller Knopf auf `/api/revalidate` für sofortige Aktualisierung.
+6. Prüfen, dass GitHub Actions im Repository aktiv sind (für `reisen-sync`) und die Cloudflare-Integration bei Push auf `main` baut.
 
 ## Empfohlene nächste Stufe (stabiler als HTML-Lesen)
 

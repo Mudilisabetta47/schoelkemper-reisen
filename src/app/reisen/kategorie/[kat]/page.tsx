@@ -4,7 +4,6 @@ import { Suspense } from "react";
 import { PageHero } from "@/components/layout/PageHero";
 import { TripsView } from "@/components/reisen/TripsView";
 import { getCatalog } from "@/lib/reisecms";
-import snapshot from "@/data/reisen.snapshot.json";
 import { pageMeta } from "@/lib/seo";
 
 /** Texte je Reiseart – kurz, sachlich, ohne erfundene Details */
@@ -37,7 +36,7 @@ const COPY: Record<string, { title: string; lead: string; meta: string }> = {
 };
 
 export async function generateStaticParams() {
-  const cats = (snapshot as { categories: { slug: string; kind: string }[] }).categories.filter((c) => c.kind === "reiseart");
+  const cats = (await getCatalog()).categories.filter((c) => c.kind === "reiseart");
   return cats.length ? cats.map((c) => ({ kat: c.slug })) : [{ kat: "tagesfahrten" }];
 }
 

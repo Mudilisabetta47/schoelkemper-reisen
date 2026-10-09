@@ -8,12 +8,12 @@ import { TripCard, toCard } from "@/components/reisen/TripCard";
 import { Icon } from "@/components/ui/Icon";
 import { CmsPic, Pic, cmsSrc } from "@/components/ui/Pic";
 import { fmtDate, fmtDays, fmtPrice, fmtRange, nextVariant, plainText, STATUS_LABEL, truncate, tripStatus } from "@/lib/format";
-import { getCatalog, getTrip, REISECMS_BASE_URL, snapshotSlugs } from "@/lib/reisecms";
+import { getCatalog, getTrip, REISECMS_BASE_URL, staticTripSlugs } from "@/lib/reisecms";
 import { JsonLd, pageMeta, tripLd } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 
 export async function generateStaticParams() {
-  const slugs = snapshotSlugs();
+  const slugs = await staticTripSlugs();
   return slugs.length ? slugs.map((slug) => ({ slug })) : [{ slug: "weihnachtsmarkt-leipzig" }];
 }
 

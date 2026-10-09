@@ -1,0 +1,39 @@
+# Prüft alle 30 Minuten das reise-CMS. Haben sich Reisen, Termine, Preise oder
+# Verfügbarkeiten geändert, wird der Snapshot committet – Cloudflare baut und
+# veröffentlicht die Website daraufhin automatisch neu.
+name: reisen-sync
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reisen-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci --ignore-scripts
+      - run: node scripts/sync-reisen.ts
+      - name: Commit bei Änderungen
+        run: |
+          if git diff --quiet -- src/data/reisen.snapshot.json; then
+            echo "Keine Änderungen im Reiseangebot."
+          else
+            git config user.name "reisen-sync"
+            git config user.email "actions@users.noreply.github.com"
+            git add src/data/reisen.snapshot.json
+            git commit -m "Reisen aus dem reise-CMS aktualisiert"
+            git push
+          fi

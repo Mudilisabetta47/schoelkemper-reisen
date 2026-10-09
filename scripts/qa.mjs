@@ -191,8 +191,11 @@ report.ok.push(`Overflow geprüft: ${VIEWPORTS.length} Viewports × ${sample.len
   const sum = await page.locator(".req__summary dd").count();
   await page.check(".req__summary input[type=checkbox]");
   await next();
-  await page.waitForSelector(".req-done", { timeout: 8000 }).catch(() => fail("Busanfrage: kein Erfolgsstatus"));
-  report.ok.push(`Busanfrage: 6 Schritte, Zusammenfassung mit ${sum} Angaben, gesendet`);
+  const done = await page.waitForSelector(".req-done", { timeout: 8000 }).then(() => true).catch(() => false);
+  const errMsg = done ? "" : await page.locator(".req__error").innerText().catch(() => "");
+  if (done) report.ok.push(`Busanfrage: 6 Schritte, Zusammenfassung mit ${sum} Angaben, gesendet`);
+  else if (/Versand ist gerade nicht möglich/.test(errMsg)) warn("Busanfrage: Versand nicht konfiguriert (BREVO_API_KEY fehlt) – Formular zeigt Telefon/E-Mail als Alternative");
+  else fail(`Busanfrage: kein Erfolgsstatus ${errMsg}`);
   await ctx.close();
 }
 

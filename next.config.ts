@@ -37,10 +37,12 @@ const legacy: [string, string][] = [
 ];
 
 const nextConfig: NextConfig = {
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Cache Components/PPR sind bewusst aus: OpenNext (Cloudflare Workers) unterstützt
+  // sie derzeit nicht (Worker hängt beim Rendern). Seiten werden statisch vorgerendert.
   poweredByHeader: false,
   images: {
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
     formats: ["image/avif", "image/webp"],
     qualities: [60, 75, 85],
     deviceSizes: [390, 640, 828, 1080, 1280, 1600, 1920, 2560],

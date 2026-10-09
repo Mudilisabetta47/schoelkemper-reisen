@@ -26,7 +26,7 @@ Start · Reisen · Reiseart (5) · Reisedetail (10 aktuell) · Busvermietung · 
 
 ## Reisen
 
-- **Datenquelle:** bestehendes reise-CMS, live gelesen, 15 min gecacht, Snapshot-Fallback, Sofort-Update per `/api/revalidate`. Details: `docs/REISE-CMS.md`.
+- **Datenquelle:** bestehendes reise-CMS, beim Build live gelesen; die GitHub Action `reisen-sync` prüft alle 30 min und löst bei Änderungen einen neuen Build aus. Details: `docs/REISE-CMS.md`.
 - **Kategorien:** aus der CMS-Navigation (Tagesfahrten, Mehrtagesfahrten, Gruppenreise → „Für Gruppen“, Weihnachtszeit, Polenmarkt); Ziele aus „Reiseländer“ (Deutschland, Niederlande).
 - **Suche:** Volltext über Titel, Untertitel, Beschreibung, Leistungen, Länder. Filter: Reiseart, Datum (Monat), Dauer, Preis, Ziel, nur verfügbare. Sortierung: Relevanz, Datum, Preis auf-/absteigend. URL-synchron (teilbar), sofortige Rückmeldung, mobil als Filter-Drawer. Ohne JavaScript: vollständige, crawlbare Liste.
 - **Detail:** Hero mit Reisebild (Bildnachweis aus dem CMS), Datum/Dauer/Preis/Verfügbarkeit, Übersicht, Reiseverlauf, Leistungen, Hotel (falls vorhanden), Zustieg als Zeitleiste, Preise + Sonderleistungen, Termine, Bilder, Wichtige Informationen (Teilnehmer, Stornostaffel, Bedingungen). Terminwahl → Buchung im CMS. Nur vorhandene Daten werden angezeigt.
@@ -63,7 +63,8 @@ Start · Reisen · Reiseart (5) · Reisedetail (10 aktuell) · Busvermietung · 
 - Bilder: `next/image` mit AVIF/WebP, responsive Größen, Lazy Loading, Hero mit Preload, feste Maße (Maßtabelle) → **CLS 0,000**.
 - Motion: nur transform/opacity (eine clip-path-Maske beim Übergang), keine Layout-Abfragen pro Frame, Trigger außerhalb des Viewports pausiert.
 - Gemessen (Produktions-Build, kompletter Scroll-Durchlauf der Startseite): 390 px, 1440 px und 2560 px jeweils **Median 16,7 ms (60 fps), p95 ≤ 16,8 ms**. LCP lokal 64–124 ms (ohne Netzwerkdrosselung).
-- Build: `next build` erfolgreich, TypeScript strikt, ESLint ohne Befund.
+- Build: Cloudflare-Build (OpenNext) erfolgreich, Worker 2,2 MB gzip; TypeScript strikt, ESLint ohne Befund.
+- Hosting Cloudflare Workers: Seiten werden vorgerendert aus den Assets ausgeliefert (~5 ms lokal in workerd), eigene Bilder als AVIF/WebP über das Images-Binding, Reisebilder skaliert vom CMS.
 
 ## QA
 
@@ -71,6 +72,10 @@ Start · Reisen · Reiseart (5) · Reisedetail (10 aktuell) · Busvermietung · 
 - Keine Konsolenfehler, keine Hydration-Warnungen.
 - Reisesuche, Filter, Sortierung, Reise öffnen, mobiler Filter-Drawer, Busanfrage-Flow, Reduced Motion: bestanden (`scripts/qa.mjs`).
 - Browser: automatisiert in Chromium (Playwright). Safari/Firefox/iOS-Geräte manuell vor Livegang prüfen.
+
+## Hosting-Hinweis Cloudflare
+
+Next.js „Cache Components“ (Partial Prerendering) läuft mit OpenNext auf Cloudflare derzeit nicht (jede Seite hing im Worker, geprüft mit Next 16.4.0 und 16.3.8). Die Website nutzt daher statisch vorgerenderte Seiten; Next ist auf 16.3.8 festgelegt (von OpenNext 1.20.10 unterstützte Linie). Ein kleiner Patch (`patches/`) ergänzt die Datei `preview-props.json`, die OpenNext noch nicht kennt.
 
 ## Offen (echte offene Punkte)
 
