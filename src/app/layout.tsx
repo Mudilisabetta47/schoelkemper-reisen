@@ -14,6 +14,7 @@ import "@/styles/motion.css";
 import "@/styles/layout.css";
 import "@/styles/sections.css";
 import "@/styles/pages.css";
+import "@/styles/content.css";
 
 /* Schriften werden beim Build selbst gehostet – keine Verbindung zu Google beim Seitenaufruf */
 const openSans = Open_Sans({

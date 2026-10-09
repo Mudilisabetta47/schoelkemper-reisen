@@ -3,29 +3,14 @@
 import Link from "next/link";
 import { useRef } from "react";
 import { ButtonLink } from "@/components/ui/Button";
-import { Icon, type IconName } from "@/components/ui/Icon";
+import { Icon } from "@/components/ui/Icon";
 import { Pic } from "@/components/ui/Pic";
 import { SplitText } from "@/components/ui/SplitText";
-import type { Bus, FeatureKey } from "@/data/fleet";
+import type { Bus } from "@/data/fleet";
+import { FEATURE_ICON } from "@/data/fleet-icons";
 import { range } from "@/motion/env";
 import { useTimeline } from "@/motion/react";
 
-export const FEATURE_ICON: Record<FeatureKey, IconName> = {
-  klima: "wind",
-  wc: "toilet",
-  kueche: "coffee",
-  kuehlschrank: "fridge",
-  usb: "plug",
-  steckdose: "plug",
-  gurte: "belt",
-  dvd: "screen",
-  mikrofon: "mic",
-  kaffee: "coffee",
-  tische: "table",
-  kofferraum: "luggage",
-  sitzabstand: "ruler",
-  rampe: "ramp",
-};
 
 /**
  * 06 FUHRPARK – Sticky-Bühne. Pro Fahrzeug ein Abschnitt der Scrollstrecke:
