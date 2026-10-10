@@ -1,162 +1,7 @@
 {
- "fetchedAt": "2026-10-09T12:41:01.890Z",
+ "fetchedAt": "2026-10-10T00:29:58.518Z",
  "source": "snapshot",
  "trips": [
-  {
-   "slug": "polenmarkt-slubice",
-   "title": "Polenmarkt Slubice",
-   "isNew": false,
-   "teaser": "<p>Besuchen Sie mit uns einen der schön&shy;sten pol&shy;nischen Ein&shy;kauf&shy;smärkte: Slubice. Hinter der pol&shy;nischen Grenze haben Sie die Mög&shy;lich&shy;keit preis&shy;werte Ange&shy;bote an Kleidung, Haus&shy;halts&shy;waren, Lebe&shy;nsmit&shy;teln und Kun&shy;sthand&shy;werk zu kaufen.</p> <p>Außer&shy;dem wer&shy;den Sie Ange&shy;bote ent&shy;dec&shy;ken, wel&shy;che nur hier käuf&shy;lich zu erwer&shy;ben sind und das eine oder andere Schnäpp&shy;chen fin&shy;den. Da Polen für seine gute, traditionelle Küche bekannt ist, kön&shy;nen Sie auch in Slubice in einem der ört&shy;lichen Res&shy;taurants lec&shy;ker und kos&shy;ten&shy;gün&shy;stig essen.</p>",
-   "categories": [
-    "polenmarkt",
-    "tagesfahrten"
-   ],
-   "countries": [],
-   "images": [
-    {
-     "path": "/media/image/reisecms/Shopping/Marktstand_-_Foto_Dan_Race_Dollarphotoclub_68157502.jpg",
-     "credit": "Foto: Dan Race / Dollarphotoclub"
-    }
-   ],
-   "usesFallbackImage": false,
-   "days": 1,
-   "priceFrom": 45,
-   "priceLabel": "ab, pro Person",
-   "variants": [
-    {
-     "id": 2298,
-     "cmsPath": "/reise/2298_Polenmarkt_Slubice",
-     "start": "2026-10-10",
-     "end": "2026-10-10",
-     "days": 1,
-     "dateLabel": "Samstag 10.10.2026",
-     "status": "ausgebucht",
-     "prices": [
-      {
-       "label": "pro Person",
-       "amount": 45
-      }
-     ],
-     "extras": [],
-     "stops": [
-      {
-       "time": "06:00 Uhr",
-       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
-      },
-      {
-       "time": "06:10 Uhr",
-       "place": "Woermannstr. Bunker"
-      },
-      {
-       "time": "07:00 Uhr",
-       "place": "ZOB Hannover"
-      }
-     ],
-     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
-     "services": [
-      "Busfahrt"
-     ],
-     "sections": [],
-     "minParticipants": 35,
-     "maxParticipants": 50,
-     "cancellation": {
-      "name": "Stornostaffel B",
-      "rows": [
-       {
-        "period": "bis 45. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "44. bis 29. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "28. bis 15. Tag",
-        "fee": "30%"
-       },
-       {
-        "period": "14. bis 7. Tag",
-        "fee": "50%"
-       },
-       {
-        "period": "6. bis 2. Tag",
-        "fee": "80%"
-       },
-       {
-        "period": "1. bis 1. Tag",
-        "fee": "90%"
-       }
-      ]
-     }
-    },
-    {
-     "id": 2294,
-     "cmsPath": "/reise/2294_Polenmarkt_Slubice",
-     "start": "2026-12-12",
-     "end": "2026-12-12",
-     "days": 1,
-     "dateLabel": "Samstag 12.12.2026",
-     "status": "verfuegbar",
-     "prices": [
-      {
-       "label": "pro Person",
-       "amount": 45
-      }
-     ],
-     "extras": [],
-     "stops": [
-      {
-       "time": "06:00 Uhr",
-       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
-      },
-      {
-       "time": "06:10 Uhr",
-       "place": "Woermannstr. Bunker"
-      },
-      {
-       "time": "07:00 Uhr",
-       "place": "ZOB Hannover"
-      }
-     ],
-     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
-     "services": [
-      "Busfahrt"
-     ],
-     "sections": [],
-     "minParticipants": 35,
-     "maxParticipants": 50,
-     "cancellation": {
-      "name": "Stornostaffel B",
-      "rows": [
-       {
-        "period": "bis 45. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "44. bis 29. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "28. bis 15. Tag",
-        "fee": "30%"
-       },
-       {
-        "period": "14. bis 7. Tag",
-        "fee": "50%"
-       },
-       {
-        "period": "6. bis 2. Tag",
-        "fee": "80%"
-       },
-       {
-        "period": "1. bis 1. Tag",
-        "fee": "90%"
-       }
-      ]
-     }
-    }
-   ]
-  },
   {
    "slug": "hollaendischer-markt-enschede",
    "title": "Holländischer Markt Enschede",
@@ -1108,6 +953,95 @@
    ]
   },
   {
+   "slug": "polenmarkt-slubice",
+   "title": "Polenmarkt Slubice",
+   "isNew": false,
+   "teaser": "<p>Besuchen Sie mit uns einen der schön&shy;sten pol&shy;nischen Ein&shy;kauf&shy;smärkte: Slubice. Hinter der pol&shy;nischen Grenze haben Sie die Mög&shy;lich&shy;keit preis&shy;werte Ange&shy;bote an Kleidung, Haus&shy;halts&shy;waren, Lebe&shy;nsmit&shy;teln und Kun&shy;sthand&shy;werk zu kaufen.</p> <p>Außer&shy;dem wer&shy;den Sie Ange&shy;bote ent&shy;dec&shy;ken, wel&shy;che nur hier käuf&shy;lich zu erwer&shy;ben sind und das eine oder andere Schnäpp&shy;chen fin&shy;den. Da Polen für seine gute, traditionelle Küche bekannt ist, kön&shy;nen Sie auch in Slubice in einem der ört&shy;lichen Res&shy;taurants lec&shy;ker und kos&shy;ten&shy;gün&shy;stig essen.</p>",
+   "categories": [
+    "polenmarkt",
+    "tagesfahrten"
+   ],
+   "countries": [],
+   "images": [
+    {
+     "path": "/media/image/reisecms/Shopping/Marktstand_-_Foto_Dan_Race_Dollarphotoclub_68157502.jpg",
+     "credit": "Foto: Dan Race / Dollarphotoclub"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 45,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2294,
+     "cmsPath": "/reise/2294_Polenmarkt_Slubice",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "days": 1,
+     "dateLabel": "Samstag 12.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 45
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
    "slug": "koelner-weihnachtsmarkt",
    "title": "Kölner Weihnachtsmarkt",
    "isNew": true,
@@ -1223,7 +1157,6 @@
    "label": "Polenmarkt",
    "kind": "reiseart",
    "tripIds": [
-    2298,
     2294
    ]
   },
@@ -1233,7 +1166,6 @@
    "label": "Tagesfahrten",
    "kind": "reiseart",
    "tripIds": [
-    2298,
     2300,
     2325,
     2328,
