@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-10T00:29:58.518Z",
+ "fetchedAt": "2026-10-15T11:55:16.146Z",
  "source": "snapshot",
  "trips": [
   {
@@ -69,189 +69,6 @@
      "maxParticipants": 50,
      "cancellation": {
       "name": "Stornostaffel B",
-      "rows": [
-       {
-        "period": "bis 45. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "44. bis 29. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "28. bis 15. Tag",
-        "fee": "30%"
-       },
-       {
-        "period": "14. bis 7. Tag",
-        "fee": "50%"
-       },
-       {
-        "period": "6. bis 2. Tag",
-        "fee": "80%"
-       },
-       {
-        "period": "1. bis 1. Tag",
-        "fee": "90%"
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "slug": "uefa-nations-league",
-   "title": "UEFA Nations League",
-   "subtitle": "Deutschland-Holland",
-   "isNew": false,
-   "categories": [
-    "mehrtagesfahrten"
-   ],
-   "countries": [],
-   "images": [],
-   "usesFallbackImage": true,
-   "days": 2,
-   "priceFrom": 349,
-   "priceLabel": "ab, Unterbringung im Doppelzimmer (inkl. ÜF)",
-   "variants": [
-    {
-     "id": 2333,
-     "cmsPath": "/reise/2333_UEFA_Nations_League",
-     "start": "2026-11-16",
-     "end": "2026-11-17",
-     "days": 2,
-     "dateLabel": "Mo 16.11. - Di 17.11.2026",
-     "status": "ausgebucht",
-     "bookingTo": "2026-08-20",
-     "prices": [
-      {
-       "label": "Unterbringung im Doppelzimmer (inkl. ÜF)",
-       "amount": 349
-      },
-      {
-       "label": "Unterbringung im Einzelzimmer (inkl. ÜF)",
-       "amount": 424
-      }
-     ],
-     "extras": [
-      {
-       "label": "Aufpreis Eintrittskarte ( Gegengrade)",
-       "amount": 45
-      },
-      {
-       "label": "Stadtrundfahrt",
-       "amount": 25
-      }
-     ],
-     "stops": [
-      {
-       "time": "08:00 Uhr",
-       "place": "ZOB Hannover"
-      }
-     ],
-     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
-     "services": [
-      "Busfahrt",
-      "1x Übernachtung im DZ",
-      "1x Frühstück",
-      "Eintrittskarte KURVE Sitzplatz"
-     ],
-     "sections": [],
-     "minParticipants": 20,
-     "maxParticipants": 40,
-     "cancellation": {
-      "name": "Stornostaffel A",
-      "rows": [
-       {
-        "period": "bis 45. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "44. bis 29. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "28. bis 15. Tag",
-        "fee": "30%"
-       },
-       {
-        "period": "14. bis 7. Tag",
-        "fee": "50%"
-       },
-       {
-        "period": "6. bis 2. Tag",
-        "fee": "80%"
-       },
-       {
-        "period": "1. bis 1. Tag",
-        "fee": "90%"
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "slug": "nachmittags-kaffeefahrt",
-   "title": "Nachmittags-Kaffeefahrt",
-   "isNew": false,
-   "teaser": "Sie dürfen sich auf einen ganz entspannten Nachmittag freuen - lange Strecken zu laufen gibt es nicht!",
-   "categories": [
-    "tagesfahrten"
-   ],
-   "countries": [],
-   "images": [
-    {
-     "path": "/media/image/scholkemper/winbeutel.jpg"
-    }
-   ],
-   "usesFallbackImage": false,
-   "days": 1,
-   "priceFrom": 42,
-   "priceLabel": "pro Person",
-   "variants": [
-    {
-     "id": 2325,
-     "cmsPath": "/reise/2325_Nachmittags-Kaffeefahrt",
-     "start": "2026-11-17",
-     "end": "2026-11-17",
-     "days": 1,
-     "dateLabel": "Dienstag 17.11.2026",
-     "status": "verfuegbar",
-     "prices": [
-      {
-       "label": "pro Person",
-       "amount": 42
-      }
-     ],
-     "extras": [],
-     "stops": [
-      {
-       "time": "11:30 Uhr",
-       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
-      },
-      {
-       "time": "11:40 Uhr",
-       "place": "Woermannstr. Bunker"
-      },
-      {
-       "time": "12:30 Uhr",
-       "place": "ZOB Hannover"
-      },
-      {
-       "time": "12:50 Uhr",
-       "place": "Anderten ( wird noch besprochen)"
-      }
-     ],
-     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
-     "services": [
-      "Busfahrt, Kaffee + Kuchen"
-     ],
-     "sections": [],
-     "minParticipants": 35,
-     "maxParticipants": 50,
-     "cancellation": {
-      "name": "Stornostaffel A",
       "rows": [
        {
         "period": "bis 45. Tag",
@@ -971,7 +788,7 @@
    "usesFallbackImage": false,
    "days": 1,
    "priceFrom": 45,
-   "priceLabel": "pro Person",
+   "priceLabel": "ab, pro Person",
    "variants": [
     {
      "id": 2294,
@@ -985,6 +802,204 @@
       {
        "label": "pro Person",
        "amount": 45
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2334,
+     "cmsPath": "/reise/2334_Polenmarkt_Slubice",
+     "start": "2027-02-13",
+     "end": "2027-02-13",
+     "days": 1,
+     "dateLabel": "Samstag 13.02.2027",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 49
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2335,
+     "cmsPath": "/reise/2335_Polenmarkt_Slubice",
+     "start": "2027-04-10",
+     "end": "2027-04-10",
+     "days": 1,
+     "dateLabel": "Samstag 10.04.2027",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 49
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 35,
+     "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2336,
+     "cmsPath": "/reise/2336_Polenmarkt_Slubice",
+     "start": "2027-06-12",
+     "end": "2027-06-12",
+     "days": 1,
+     "dateLabel": "Samstag 12.06.2027",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 49
       }
      ],
      "extras": [],
@@ -1143,21 +1158,15 @@
    ]
   },
   {
-   "slug": "mehrtagesfahrten",
-   "cmsName": "Mehrtagesfahrten",
-   "label": "Mehrtagesfahrten",
-   "kind": "reiseart",
-   "tripIds": [
-    2333
-   ]
-  },
-  {
    "slug": "polenmarkt",
    "cmsName": "Polenmarkt",
    "label": "Polenmarkt",
    "kind": "reiseart",
    "tripIds": [
-    2294
+    2294,
+    2334,
+    2335,
+    2336
    ]
   },
   {
@@ -1167,7 +1176,6 @@
    "kind": "reiseart",
    "tripIds": [
     2300,
-    2325,
     2328,
     2324,
     2326,
@@ -1177,7 +1185,10 @@
     2294,
     2329,
     2327,
-    2330
+    2330,
+    2334,
+    2335,
+    2336
    ]
   },
   {
