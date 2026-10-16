@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-15T11:55:16.146Z",
+ "fetchedAt": "2026-10-16T11:46:05.634Z",
  "source": "snapshot",
  "trips": [
   {
@@ -891,7 +891,7 @@
      ],
      "sections": [],
      "minParticipants": 35,
-     "maxParticipants": 50,
+     "maxParticipants": 56,
      "cancellation": {
       "name": "Stornostaffel B",
       "rows": [
@@ -957,7 +957,7 @@
      ],
      "sections": [],
      "minParticipants": 35,
-     "maxParticipants": 50,
+     "maxParticipants": 56,
      "cancellation": {
       "name": "Stornostaffel B",
       "rows": [
@@ -1023,7 +1023,7 @@
      ],
      "sections": [],
      "minParticipants": 35,
-     "maxParticipants": 50,
+     "maxParticipants": 56,
      "cancellation": {
       "name": "Stornostaffel B",
       "rows": [
