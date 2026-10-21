@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T11:46:05.634Z",
+ "fetchedAt": "2026-10-21T20:18:25.345Z",
  "source": "snapshot",
  "trips": [
   {
@@ -23,7 +23,7 @@
    "usesFallbackImage": false,
    "days": 1,
    "priceFrom": 42,
-   "priceLabel": "pro Person",
+   "priceLabel": "ab, pro Person",
    "variants": [
     {
      "id": 2300,
@@ -67,6 +67,78 @@
      ],
      "minParticipants": 35,
      "maxParticipants": 50,
+     "cancellation": {
+      "name": "Stornostaffel B",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    },
+    {
+     "id": 2337,
+     "cmsPath": "/reise/2337_Hollaendischer_Markt_Enschede",
+     "start": "2027-03-06",
+     "end": "2027-03-06",
+     "days": 1,
+     "dateLabel": "Samstag 06.03.2027",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 46
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:00 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:10 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [
+      {
+       "key": "verlauf",
+       "title": "Reiseinformation",
+       "html": "Der Markt spiegelt die Vielseitigkeit dieser Stadt wieder; es werden frische Lebensmittel, Blumen, Haushaltsartikel und allerlei Schnäppchen angeboten. <br><br>Lust auf Fisch? <br>Der Fischmarkt ist sowohl national, als auch international für seine diversen Delikatessen bekannt. Die Fischstände sind ein großer Publikumsmagnet auf dem Markt in Enschede. Viele Touristen, aber auch Enschedes Bewohner selbst, kommen auf den Markt, um frischen Hering, Backfisch, Kibbeling oder andere Meeresspezialitäten zu kaufen. Ob herrlichen Lachs, Kabeljau oder Thunfisch - auf dem Fischmarkt in Enschede findet Ihr alles, was das Herz begehrt.<br><br>Gartencenter Oosterik:<br>Für diejenigen, die eine große Auswahl an Gegenständen wie Gartenartikel , Blumen , Zimmerpflanzen und Wohnaccessoires haben möchten, sollte ein Einkaufstag unbedingt zum Tuincentrum Oosterik in Denekamp kommen."
+      }
+     ],
+     "minParticipants": 35,
+     "maxParticipants": 56,
      "cancellation": {
       "name": "Stornostaffel B",
       "rows": [
@@ -1187,6 +1259,7 @@
     2327,
     2330,
     2334,
+    2337,
     2335,
     2336
    ]
@@ -1210,6 +1283,7 @@
    "kind": "land",
    "tripIds": [
     2300,
+    2337,
     2324,
     2326,
     2327,
@@ -1224,7 +1298,8 @@
    "label": "Niederlande",
    "kind": "land",
    "tripIds": [
-    2300
+    2300,
+    2337
    ]
   }
  ]
