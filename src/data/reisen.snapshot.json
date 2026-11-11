@@ -1,173 +1,7 @@
 {
- "fetchedAt": "2026-11-06T23:24:50.935Z",
+ "fetchedAt": "2026-11-11T14:57:17.379Z",
  "source": "snapshot",
  "trips": [
-  {
-   "slug": "weihnachtsmarkt-leipzig",
-   "title": "Weihnachtsmarkt Leipzig",
-   "isNew": false,
-   "teaser": "Die Tradition des Leipziger Weihnachtsmarktes reicht bis in das 15. Jahrhundert zurück. Auf Grund seines einzigartigen kulturellen und kulinarischen Angebotes inmitten der historischen Altstadt, hat er sich inzwischen einen fast legendären Ruf erworben. Mit seinen 250 Ständen ist er einer der größten und schönsten Weihnachtsmärkte in Deutschland.",
-   "categories": [
-    "tagesfahrten"
-   ],
-   "countries": [],
-   "images": [
-    {
-     "path": "/media/image/weihnachten/leipzig_weihnachtsmarkt_-_foto_lts-studio80.jpg",
-     "credit": "Foto: lts studio80"
-    },
-    {
-     "path": "/media/image/reisecms/Deutschland/Sachsen/Dresden/Dresdner_Stollen_-_Foto_dittrich.jpg",
-     "credit": "Foto: dittrich"
-    }
-   ],
-   "usesFallbackImage": false,
-   "days": 1,
-   "priceFrom": 54,
-   "priceLabel": "ab, pro Person",
-   "variants": [
-    {
-     "id": 2328,
-     "cmsPath": "/reise/2328_Weihnachtsmarkt_Leipzig",
-     "start": "2026-11-28",
-     "end": "2026-11-28",
-     "days": 1,
-     "dateLabel": "Samstag 28.11.2026",
-     "status": "verfuegbar",
-     "prices": [
-      {
-       "label": "pro Person",
-       "amount": 54
-      }
-     ],
-     "extras": [],
-     "stops": [
-      {
-       "time": "06:10 Uhr",
-       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
-      },
-      {
-       "time": "06:15 Uhr",
-       "place": "Badenstedt, Üstra Haltestelle Safariweg"
-      },
-      {
-       "time": "06:20 Uhr",
-       "place": "Woermannstr. Bunker"
-      },
-      {
-       "time": "07:00 Uhr",
-       "place": "ZOB Hannover"
-      }
-     ],
-     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
-     "services": [
-      "Busfahrt"
-     ],
-     "sections": [],
-     "minParticipants": 25,
-     "maxParticipants": 48,
-     "cancellation": {
-      "name": "Stornostaffel A",
-      "rows": [
-       {
-        "period": "bis 45. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "44. bis 29. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "28. bis 15. Tag",
-        "fee": "30%"
-       },
-       {
-        "period": "14. bis 7. Tag",
-        "fee": "50%"
-       },
-       {
-        "period": "6. bis 2. Tag",
-        "fee": "80%"
-       },
-       {
-        "period": "1. bis 1. Tag",
-        "fee": "90%"
-       }
-      ]
-     }
-    },
-    {
-     "id": 2329,
-     "cmsPath": "/reise/2329_Weihnachtsmarkt_Leipzig",
-     "start": "2026-12-14",
-     "end": "2026-12-14",
-     "days": 1,
-     "dateLabel": "Montag 14.12.2026",
-     "status": "verfuegbar",
-     "prices": [
-      {
-       "label": "pro Person",
-       "amount": 54
-      }
-     ],
-     "extras": [],
-     "stops": [
-      {
-       "time": "06:10 Uhr",
-       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
-      },
-      {
-       "time": "06:15 Uhr",
-       "place": "Badenstedt, Üstra Haltestelle Safariweg"
-      },
-      {
-       "time": "06:20 Uhr",
-       "place": "Woermannstr. Bunker"
-      },
-      {
-       "time": "07:00 Uhr",
-       "place": "ZOB Hannover"
-      }
-     ],
-     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
-     "services": [
-      "Busfahrt"
-     ],
-     "sections": [],
-     "minParticipants": 25,
-     "maxParticipants": 48,
-     "cancellation": {
-      "name": "Stornostaffel A",
-      "rows": [
-       {
-        "period": "bis 45. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "44. bis 29. Tag",
-        "fee": "0%"
-       },
-       {
-        "period": "28. bis 15. Tag",
-        "fee": "30%"
-       },
-       {
-        "period": "14. bis 7. Tag",
-        "fee": "50%"
-       },
-       {
-        "period": "6. bis 2. Tag",
-        "fee": "80%"
-       },
-       {
-        "period": "1. bis 1. Tag",
-        "fee": "90%"
-       }
-      ]
-     }
-    }
-   ]
-  },
   {
    "slug": "ueberraschungsfahrt",
    "title": "Überraschungsfahrt",
@@ -1050,6 +884,102 @@
    ]
   },
   {
+   "slug": "weihnachtsmarkt-leipzig",
+   "title": "Weihnachtsmarkt Leipzig",
+   "isNew": false,
+   "teaser": "Die Tradition des Leipziger Weihnachtsmarktes reicht bis in das 15. Jahrhundert zurück. Auf Grund seines einzigartigen kulturellen und kulinarischen Angebotes inmitten der historischen Altstadt, hat er sich inzwischen einen fast legendären Ruf erworben. Mit seinen 250 Ständen ist er einer der größten und schönsten Weihnachtsmärkte in Deutschland.",
+   "categories": [
+    "tagesfahrten"
+   ],
+   "countries": [],
+   "images": [
+    {
+     "path": "/media/image/weihnachten/leipzig_weihnachtsmarkt_-_foto_lts-studio80.jpg",
+     "credit": "Foto: lts studio80"
+    },
+    {
+     "path": "/media/image/reisecms/Deutschland/Sachsen/Dresden/Dresdner_Stollen_-_Foto_dittrich.jpg",
+     "credit": "Foto: dittrich"
+    }
+   ],
+   "usesFallbackImage": false,
+   "days": 1,
+   "priceFrom": 54,
+   "priceLabel": "pro Person",
+   "variants": [
+    {
+     "id": 2329,
+     "cmsPath": "/reise/2329_Weihnachtsmarkt_Leipzig",
+     "start": "2026-12-14",
+     "end": "2026-12-14",
+     "days": 1,
+     "dateLabel": "Montag 14.12.2026",
+     "status": "verfuegbar",
+     "prices": [
+      {
+       "label": "pro Person",
+       "amount": 54
+      }
+     ],
+     "extras": [],
+     "stops": [
+      {
+       "time": "06:10 Uhr",
+       "place": "Betriebshof, Apollostr. 10, 30952 Ronnenberg"
+      },
+      {
+       "time": "06:15 Uhr",
+       "place": "Badenstedt, Üstra Haltestelle Safariweg"
+      },
+      {
+       "time": "06:20 Uhr",
+       "place": "Woermannstr. Bunker"
+      },
+      {
+       "time": "07:00 Uhr",
+       "place": "ZOB Hannover"
+      }
+     ],
+     "stopsNote": "Weitere Abfahrtsorte auf Anfrage.",
+     "services": [
+      "Busfahrt"
+     ],
+     "sections": [],
+     "minParticipants": 25,
+     "maxParticipants": 48,
+     "cancellation": {
+      "name": "Stornostaffel A",
+      "rows": [
+       {
+        "period": "bis 45. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "44. bis 29. Tag",
+        "fee": "0%"
+       },
+       {
+        "period": "28. bis 15. Tag",
+        "fee": "30%"
+       },
+       {
+        "period": "14. bis 7. Tag",
+        "fee": "50%"
+       },
+       {
+        "period": "6. bis 2. Tag",
+        "fee": "80%"
+       },
+       {
+        "period": "1. bis 1. Tag",
+        "fee": "90%"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
    "slug": "hollaendischer-markt-enschede",
    "title": "Holländischer Markt Enschede",
    "subtitle": "und Gartencenter Oosterik",
@@ -1175,7 +1105,6 @@
    "label": "Tagesfahrten",
    "kind": "reiseart",
    "tripIds": [
-    2328,
     2324,
     2326,
     2322,
